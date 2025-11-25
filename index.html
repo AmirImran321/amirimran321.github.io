@@ -8,128 +8,69 @@
 	<title>Portfolio</title>
 </head>
 <body>
-	<nav className="nav navbar-expand-lg bg-dark sticky-top align-items-center">
-		<div className="container-fluid">
-		<ul className="nav-list">
-			<a href="#about" className="nav-item">About Me</a>
-			<a href="#skills" className="nav-item">Skills</a>
-			<a href="#projects" className="nav-item">Projects</a>
-			<a href="#contact" className="nav-item">Contact</a>
+	<nav class="nav nav-pills">
+		<div class="container-fluid">
+		<ul class="nav-list">
+			<a href="#about" class="nav-item">About Me</a>
+			<a href="#skills" class="nav-item">Skills</a>
+			<a href="#projects" class="nav-item">Projects</a>
+			<a href="#contact" class="nav-item">Contact</a>
 		</ul>
 		</div>
 	</nav>
-	 <header class="py-5 brand-gradient text-white">
-      <div class="container">
-        <div class="row align-items-center g-4">
-			<div class="col-lg-5 text-center">
-            <img class="img-fluid rounded-4 shadow" src="images/pic.png" alt="Hero image" />
-          </div>
-          <div class="col-lg-7">
-            <h1 class="display-5 fw-bold">Frontend Developer & React Architect</h1>
-            <p class="lead mb-4">
-              I build modular, scalable UIs with React, Bootstrap, and clean service-driven architecture.
-            </p>
-            <a href="#work" class="btn btn-light btn-lg me-2">View Work</a>
-            <a href="#contact" class="btn btn-outline-light btn-lg">Contact</a>
-          </div>
-        </div>
-      </div>
-    </header>
-	<section>
-		<h2 id="skills">Skills</h2>
-		<div className="skills-container">
-		<div className="row g-3">
-			<div className="col-md-4">
-				<div className="p-3 border-rounded">
-					<h6 className="text-center muted">Frontend</h6>
-					<ul>
-						<li>HTML5, CSS3, JavaScript</li>
-						<li>React.js, Angular</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-			<div className="row g-3">
-			<div className="col-md-4">
-				<div className="p-3 border-rounded">
-					<h6 className="text-center muted">Frontend</h6>
-					<ul>
-						<li>HTML5, CSS3, JavaScript</li>
-						<li>React.js, Angular</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-			<div className="row g-3">
-			<div className="col-md-4">
-				<div className="p-3 border-rounded">
-					<h6 className="text-center muted">Backend</h6>
-					<ul>
-						<li>Node.js,Express.js</li>
-						<li>Spring Boot</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div className="row g-3">
-			<div className="col-md-4">
-				<div className="p-3 border-rounded">
-					<h6 className="text-center muted">Database</h6>
-					<ul>
-						<li>MySQL</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div className="row g-3">
-			<div className="col-md-4">
-				<div className="p-3 border-rounded">
-					<h6 className="text-center muted">Database</h6>
-					<ul>
-						<li>MySQL</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div className="row g-3">
-			<div className="col-md-4">
-				<div className="p-3 border-rounded">
-					<h6 className="text-center muted">Languages</h6>
-					<ul>
-						<li>C++,Java</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+	<section class="about">
+		<div class="about-section">
+			<h2>About Me</h2>
+			<img src="images/pic.png" alt="profile">
+			<h3>Muhammad Amir Imran bin Mohd Basri</h3>
+			<p>A dedicated software engineering graduate from USM.</p>
 		</div>
 	</section>
-	<section>
-		<h2 id="projects">Projects</h2>
-		<div className="row g-4 col-lg-5">
-				<div className="card img-top h-100 ">
-				<img src="images/expenses.jpg" alt="Project 1"/>
-				<div className="card-body">
-					<h3 className="card-title">Expense Tracker</h3>
-					<p className="card-text">A web application to track personal expenses and manage budgets effectively.</p>
+	<section class="skills">
+		<div class="skill-section">
+			<h2>Skills</h2>
+			<ul>
+				<li>HTML, CSS, Javascript</li>
+				<li>React.js, Node.js, Java</li>
+				<li>C++, MySQL, Android Studio</li>
+				<li>Spring Boot, Express.js</li>
+			</ul>
+		</div>
+	</section>
+	<section class="projects">
+		<div class="project-section">
+			<h2>Skills</h2>
+			<div class="card">
+				<img src="images/expenses.jpg" alt="project1">
+				<div class="card-body">
+					<h5 class="card-title">Expense Tracker</h5>
+					<p class="card-text">An expense tracker web application designed to manage personal finances.</p>
 				</div>
-				<div className="card h-100">
-				<img src="images/Ecommerce.jpeg" alt="Project 2" />
-				<div className="card-body">
-					<h3 className="card-title">E-commerce platform</h3>
-					<p className="card-text">A web application for online shopping with a variety of products.</p>
+			</div>
+			<div class="card">
+				<img src="images/Ecommerce.jpeg" alt="project2">
+				<div class="card-body">
+					<h5 class="card-title">E-commerce project</h5>
+					<p class="card-text">An simple e-commerce project that stores variety of products.</p>
 				</div>
-				<div className="card h-100">
-				<img src="images/project1.png" alt="Project 3" />
-				<div className="card-body">
-					<h3 className="card-title">Expense Tracker</h3>
-					<p className="card-text">A web application to track personal expenses and manage budgets effectively.</p>
+			</div>
+			<div class="card">
+				<img src="images/expenses.jpg" alt="project1">
+				<div class="card-body">
+					<h5 class="card-title">Expense Tracker</h5>
+					<p class="card-text"></p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section>
-		<h2 id="contact">Contact</h2>
-		<p>You can reach me at <a href="mailto:amirimran321@gmail.com">amirimran321@gmail.com</a>.</p>
+	
+	<section class="contact">
+		<div class="contact-section">
+			<button>Github</button>
+			<button>LinkedIn</button>
+			<button>E-mail</button>
+		</div>
+
 	</section>
 	<footer><span>&copy; All rights reserved 2025</span></footer>
 	<script src="script.js"></script>

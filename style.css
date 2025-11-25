@@ -1,0 +1,23 @@
+nav{
+    margin-top: 10px;
+    justify-content: center;
+    width: 50%;
+}
+
+nav ul a{
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.card img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    box-shadow: #302f2f;
+}
+
+.card{
+    width: 18rem;
+
+}
