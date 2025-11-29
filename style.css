@@ -2,6 +2,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+nav{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color:rgb(14, 13, 13);
+}
+
+.nav-item{
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+}
+
 .profile-img{
     object-fit: cover;
     width: 150px;
@@ -9,14 +22,6 @@ body{
     border-radius: 12px;
     box-shadow: 0px 14px 12px rgba(0, 0, 0, 0.19) ;
     border: 1px solid black;
-}
-
-nav{
-    text-decoration: none;
-    color: antiquewhite;
-    width: 30%;
-    margin: 0 auto;
-    border-radius: 15px;
 }
 
 .contact-section{
@@ -34,8 +39,8 @@ nav{
     transform: scale(1.04);
 }
 .project-list img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
 }
 
