@@ -9,6 +9,10 @@ nav{
     background-color:rgb(14, 13, 13);
 }
 
+a:link{
+    text-decoration: none;
+}
+
 .nav-item{
     justify-content: space-between;
     text-align: center;
@@ -30,12 +34,7 @@ nav{
     align-items: center;
 }
 
-.contact-section button{
-   width: 10rem;
-   height: 3rem;  
-}
-
-.contact-section button:hover{
+.contact-section a:hover{
     transform: scale(1.04);
 }
 .project-list img{
@@ -44,10 +43,20 @@ nav{
     object-fit: cover;
 }
 
+.card:hover{
+    transform:scale(1.04);
+}
+
+.list {
+  list-style-type: none;  
+  padding-left: 0;        
+  margin: 0;              
+}
+
 .card{
     width: 18rem;
 }
 
 footer{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
